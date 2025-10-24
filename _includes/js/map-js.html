@@ -57,15 +57,11 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     });
     var Thunderforest = L.tileLayer(' https://a.tile.thunderforest.com/spinal-map/{z}/{x}/{y}.png?apikey=3387dba2a99d4d33bb0fc1bdf1f315c9', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors; Source: Thunderforset- SpinalMap'
-    });
-    var WaymarkedCycling = L.tileLayer('https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.waymarkedtrails.org"</a>'
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors; Source: Thunderforest- SpinalMap'
     });
     /* add base map switcher */
     var baseMaps = {
-        "Thunderforest": Thunderforest,
-        "Cyling Paths": WaymarkedCycling
+        "Thunderforest": Thunderforest
     };
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
