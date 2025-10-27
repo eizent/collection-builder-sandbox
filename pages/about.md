@@ -3,11 +3,11 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: 
+about-featured-image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Austria_-_G%C3%B6ttweig_Abbey_-_2015.jpg/1280px-Austria_-_G%C3%B6ttweig_Abbey_-_2015.jpg
 # set background-position for featured image, "center", "top", "bottom"
-position: bottom
+position: center
 # major heading to display over featured image
 heading: About the Collection
 # paragraph text below heading in featured image
@@ -20,4 +20,4 @@ padding: 6em
 
 ## About the Site
 
-This is a collection of the books I've read in my bookclub. They are mapped based on author's birthplace. Hope you enjoy!
+This is a collection of the books I've read in my bookclub. The location corresponds to the authors birthplace, while the date is the year the book was published. 
