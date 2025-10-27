@@ -20,4 +20,12 @@ padding: 6em
 
 ## About the Site
 
-This is a collection of the books I've read in my bookclub. The location corresponds to the authors birthplace, while the date is the year the book was published. 
+This is a collection of the books I've read in my bookclub. The location corresponds to the authors birthplace, while the date is the year the book was published, which you can view on the interactive map and timeline.  
+
+<div class="text-center">
+    <a href="{{ 'map.html' | relative_url }}" class="btn btn-primary btn-lg mb-2">View the Map</a>
+</div>
+
+<div class="text-center">
+    <a href="{{ 'timeline.html' | relative_url }}" class="btn btn-primary btn-lg mb-2">View the Timeline</a>
+</div>
